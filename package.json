@@ -5,12 +5,12 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "react-scripts build",
+    "develop": "react-scripts develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "serve": "react-scripts serve",
+    "clean": "react-scripts clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
