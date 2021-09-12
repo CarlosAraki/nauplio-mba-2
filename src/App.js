@@ -1,57 +1,57 @@
-import React, { Component } from "react";
-import ReactGA from "react-ga";
-import $ from "jquery";
-import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import React from 'react';
+import { useEffect, useState } from 'react';
+import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: "bar",
-      resumeData: {}
-    };
-
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
-  }
-
-  getResumeData() {
-    $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount() {
-    this.getResumeData();
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
-    );
-  }
+function App() {
+  const [date, setDate] = useState(null);
+  useEffect(() => {
+    async function getDate() {
+      const res = await fetch('/api/date');
+      const newDate = await res.text();
+      setDate(newDate);
+    }
+    getDate();
+  }, []);
+  return (
+    <main>
+      <h1>Create React App + Go API</h1>
+      <h2>
+        Deployed with{' '}
+        <a
+          href="https://vercel.com/docs"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Vercel
+        </a>
+        !
+      </h2>
+      <p>
+        <a
+          href="https://github.com/vercel/vercel/tree/main/examples/create-react-app"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          This project
+        </a>{' '}
+        was bootstrapped with{' '}
+        <a href="https://facebook.github.io/create-react-app/">
+          Create React App
+        </a>{' '}
+        and contains three directories, <code>/public</code> for static assets,{' '}
+        <code>/src</code> for components and content, and <code>/api</code>{' '}
+        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
+        function. See{' '}
+        <a href="/api/date">
+          <code>api/date</code> for the Date API with Go
+        </a>
+        .
+      </p>
+      <br />
+      <h2>The date according to Go is:</h2>
+      <p>{date ? date : 'Loading date...'}</p>
+    </main>
+  );
 }
 
 export default App;
