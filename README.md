@@ -1,21 +1,29 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+# React Nice Resume :page_with_curl:
 
-# React Example
+### [LIVE DEMO](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
 
-## Deploy Your Own
+# About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
+#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
 
-Deploy your own React project, along with Serverless Functions, with Vercel.
+![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app-functions&template=create-react-app)
+# Description
+This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
 
-_Live Example: https://create-react-app.now-examples.now.sh/_
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img2.jpg?raw=true)
 
-### How We Created This Example
+# Run Project
+### 1. Clone the project
 
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
+### 2. Run the project
 ```shell
-$ npx create-react-app my-app
+npm i
+npm start
+```
+
+### 3. Build
+```shell
+npm run build
 ```
