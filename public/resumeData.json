@@ -149,10 +149,12 @@
         "projetos1":"Organização e manutenção dos eventos relacionados à metodologia AGILE",
         "projetos2":"Responsável pela equipe de adequação e anonimização de dados à LGPD",
         "projetos3":"Mapeamento dos BPMNs (Business Process Model and Notation) para processos internos",
-        "projetos4":"Responsável pela equipe de implementação completa de uma esteira de deploy CI/CD;",
+        "projetos4":"Responsável pela equipe de implementação completa de uma esteira de deploy CI/CD",
+        "projetos5":"Implementação de classificador Haar-Cascade para identificação de Padrões ",
         "tv1":"Presidente da Comissão de Formatura ECA014",
         "tv2":"Organizador da Semana do Curso Automática 2015",
         "project":"http://www.fem.unicamp.br/~automatica/automatica2015_evento.php",
+        "project2":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/CarlosAraki/objectIdentifierViaCascade/master/relatorioFinal.pdf",
         "skills":[
           {
             "name":"Dominância-40%",
@@ -181,7 +183,7 @@
             "level":"73%"
           },
           {
-            "name":"Pensante-100%",
+            "name":"Pensante-51%",
             "level":"51%"
           },
           {
@@ -259,7 +261,73 @@
           }
         ]
       },
-      "deborah":"deborah.png",
+      "deborah":{
+        "name":"Déborah Dannah",
+        "profile":"deborah.png",
+        "linkedin":"https://www.linkedin.com/in/d-dannah/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Administradora de empresas com ênfase em Logística e Supply Chain e cursando MBA - Gestão com Ênfase em Logística e Supply Chain Management",
+        "hardskills1":" Adquirindo bagagem a 7 anos em processos de suprimento e a 4 anos em negociações e suprimento.",
+        "hardskills2":"Durante a academia busquei entender os  mecanismos de funcionamento do mercado. Sempre destinada a ter uma perspectiva  ampla do mercado e a interação deste com as variáveis sociais que ele é inserido. ",
+        "hardskills3":"Minha intenção nas organizações é de desenvolver e executar processos de suprimentos e logística de forma orgânica e ações atualizadas ao mercado.",
+        "hardskills4":"Tenho perfil de comprometimento, energia para fazer a diferença, os conflitos corporativos são resolvidos de forma natural focada na produtividade.",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"N/I",
+        "projetos1":"Localiza - Facilitador de Rotas Urbanas. 4ª Lugar na Universidade na 1ª Olimpíada de Empreendedorismo Goiano",
+        "projetos2":"Implementação de novo modelo de remuneração de parceiros comerciais - Norte",
+        "projetos3":"Ebook: Follow-up, o maior inimigo da Ruptura",
+        "projetos4":"Planilha: P³E – Planilha Padrão de P&D, Precificação e Posicionamento Estratégico. Ferramenta criada  desenvolvimento de equipes suplly chain na fase de pesquisa e desenvolvimento. ",
+        "projetos5":"Pesquisa Pibic: Preferências de Compras dos Consumidores do Comércio Varejista da Cidade de Anápolis - GO  ",
+        "projetos6":"Pesquisa TCC: Formação de preço de venda: um estudo de caso nas empresas do comércio varejista de Anápolis.",
+        "tv1":"Consultoria Empresa Júnior - UniEvangelica:  Consultoria voluntária para pequenas e médias empresas da cidade de Anápolis – Go e organização de eventos acadêmicos no Centro Universitário de Anápolis – UniEvangelica.",
+        "tv2":"Projeto UniCidadã: Realizávamos  atividades educativas, de saúde, informática, cultura, esporte e lazer.",
+        "project":"http://bit.ly/DDnnah",
+        "skills":[
+          {
+            "name":"Dominância-47%",
+            "level":"47%"
+          },
+          {
+            "name":"Influência-15%",
+            "level":"15%"
+          },
+          {
+            "name":"Estabilidade-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Conformidade-20%",
+            "level":"20%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-58%",
+            "level":"58%"
+          },
+          {
+            "name":"Intuitivo-59%",
+            "level":"59%"
+          },
+          {
+            "name":"Pensante-60%",
+            "level":"60%"
+          },
+          {
+            "name":"Julgador-47%",
+            "level":"47%"
+          },
+          {
+            "name":"Assertivo-58%",
+            "level":"58%"
+          }
+        ]
+      },
       "layane":"layane.png"
     },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",

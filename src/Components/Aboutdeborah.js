@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal";
 import Slide from "react-reveal";
 
-class Aboutcarlos extends Component {
+class Aboutdeborah extends Component {
 
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -19,9 +19,9 @@ class Aboutcarlos extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
-    const carlos = this.props.data.team.carlos;
+    const deborah = this.props.data.team.deborah;
 
-    const skills = this.props.data.team.carlos.skills.map((skills) => {
+    const skills = this.props.data.team.deborah.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -34,7 +34,7 @@ class Aboutcarlos extends Component {
       );
     });
 
-    const personalidade = this.props.data.team.carlos.personalidade.map((personalidade) => {
+    const personalidade = this.props.data.team.deborah.personalidade.map((personalidade) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + personalidade.name.toLowerCase();
       const width = personalidade.level;
@@ -55,31 +55,30 @@ class Aboutcarlos extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={"images/" + carlos.profile}
-                alt="carlos Pic"
+                src={"images/" + deborah.profile}
+                alt="deborah Pic"
               />
             </div>
             <div className="nine columns main-col">
-              <h1>{carlos.name}</h1>
+              <h1>{deborah.name}</h1>
               <hr/>
-              <p>{carlos.bio}</p>
+              <p>{deborah.bio}</p>
               <h2>Hard Skills</h2>
-              <p>{'\u2022'+" "+carlos.hardskills1}</p>
-              <p>{'\u2022'+" "+carlos.hardskills2}</p>
-              <p>{'\u2022'+" "+carlos.hardskills3}</p>
-              <p>{'\u2022'+" "+carlos.hardskills4}</p>
-              <p>{'\u2022'+" "+carlos.hardskills5}</p>
+              <p>{'\u2022'+" "+deborah.hardskills1}</p>
+              <p>{'\u2022'+" "+deborah.hardskills2}</p>
+              <p>{'\u2022'+" "+deborah.hardskills3}</p>
+              <p>{'\u2022'+" "+deborah.hardskills4}</p>
               <h2>Soft Skills</h2>
-              <p>{'\u2022'+" "+carlos.softskills1}</p>
+              <p>{'\u2022'+" "+deborah.softskills1}</p>
               <h2>Projetos</h2>
-              <p>{'\u2022'+" "+carlos.projetos1}</p>
-              <p>{'\u2022'+" "+carlos.projetos2}</p>
-              <p>{'\u2022'+" "+carlos.projetos3}</p>
-              <p>{'\u2022'+" "+carlos.projetos4}</p>
-              <p>{'\u2022'+" "+carlos.projetos5}</p>
+              <p>{'\u2022'+" "+deborah.projetos1}</p>
+              <p>{'\u2022'+" "+deborah.projetos2}</p>
+              <p>{'\u2022'+" "+deborah.projetos3}</p>
+              <p>{'\u2022'+" "+deborah.projetos4}</p>
+              <p>{'\u2022'+" "+deborah.projetos5}</p>
               <h2>Trabalhos Voluntários</h2>
-              <p>{'\u2022'+" "+carlos.tv1}</p>
-              <p>{'\u2022'+" "+carlos.tv2}</p>
+              <p>{'\u2022'+" "+deborah.tv1}</p>
+              <p>{'\u2022'+" "+deborah.tv2}</p>
               <div className="row">
                 <div className="columns contact-details">
                 <Slide left duration={1300}>
@@ -114,17 +113,11 @@ class Aboutcarlos extends Component {
               <p>
                 <Fade bottom duration={2000}>
                   <ul className="social">
-                    <a href={carlos.linkedin} className="button">
+                    <a href={deborah.linkedin} className="button">
                       <i className="fa fa-linkedin"></i> LinkedIn
                     </a>
-                    <a href={carlos.project} className="button btn project-btn">
-                      <i className="fa fa-bookmark"></i> Automática
-                    </a>
-                    <a href={carlos.project2} className="button btn project-btn">
-                      <i className="fa fa-book"></i> Haar-Cascade 
-                    </a>
-                    <a href={carlos.github} className="button btn github-btn">
-                      <i className="fa fa-github"></i>Github
+                    <a href={deborah.project} className="button btn project-btn">
+                      <i className="fa fa-book"> Ebook</i> 
                     </a>
                   </ul>
                 </Fade>
@@ -138,4 +131,4 @@ class Aboutcarlos extends Component {
   }
 }
 
-export default Aboutcarlos;
+export default Aboutdeborah;
