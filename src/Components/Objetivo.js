@@ -26,9 +26,9 @@ class Objetivo extends Component {
                     alt="Obj Pic"
                   />
                 </div>
-                <h3  className="responsive-headline" >{focus.foc1}</h3>
-                <h3  className="responsive-headline" >{focus.foc2}</h3>
-                <h3  className="responsive-headline" >{focus.foc3}</h3>
+                <p >{focus.foc1}</p>
+                <p >{focus.foc2}</p>
+                <p >{focus.foc3}</p>
               </div>
             </div>
           </div>
