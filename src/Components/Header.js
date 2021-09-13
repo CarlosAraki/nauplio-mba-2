@@ -70,7 +70,6 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
               <h3  className="responsive-headline" >{description}.</h3>
               <h3  className="responsive-headline">{description1}.</h3>
-              <h3  className="responsive-headline">{description2}.</h3>
               <hr />
               <h3  className="responsive-headline">{description4}</h3>
             </Fade>
