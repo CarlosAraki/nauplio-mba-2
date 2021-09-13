@@ -5,7 +5,11 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
+import Aboutlais from "./Components/Aboutlais";
+import Aboutcarlos from "./Components/Aboutcarlos";
+import Aboutsalomao from "./Components/Aboutsalomao";
+import Aboutdeborah from "./Components/Aboutdeborah";
+import Aboutlayane from "./Components/Aboutlayane";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
@@ -45,8 +49,14 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        <Aboutlais data={this.state.resumeData.main} />
+        <Aboutcarlos data={this.state.resumeData.main} />
+        <Aboutsalomao data={this.state.resumeData.main} />
+        <Aboutdeborah data={this.state.resumeData.main} />
+        <Aboutlayane data={this.state.resumeData.main} />
+        {/* <Team data={this.state.resumeData.main} /> */}
+        {/* <Resume data={this.state.resumeData.resume} /> */}
+        <Portfolio data={this.state.resumeData.main} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>

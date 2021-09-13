@@ -196,6 +196,11 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
+#about h1 {
+   font: 32px/40px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
 #about p {
    line-height: 30px;
    color: #ccc;
@@ -212,15 +217,120 @@ ul#nav li.current a { color: #fe6928; }
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
+#about .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#about  .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#about  .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. About - White Section
+/* ------------------------------------------------------------------ */
+
+#about-white {
+   background: #f7f7f7;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#about-white a, #about-white a:visited  { color: #313131; }
+#about-white a:hover, #about-white a:focus { color: #0762f9; }
+
+#about-white h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 12px;
+}
+#about-white h1 {
+   font: 32px/40px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 12px;
+}
+#about-white p {
+   line-height: 30px;
+   color: rgb(31, 30, 30);
+}
+#about-white .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#about-white .contact-details { width: 41.66667%; }
+#about-white .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#about-white .main-col { padding-right: 5%; }
+#about-white .button {
+   margin-top: 6px;
+   background: rgb(199, 199, 199);
+}
+#about-white  .button:hover {
+   background: #b3b0b0;
+   color: #afaeae;
+}
+#about-white  .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. Team Section
+/* ------------------------------------------------------------------ */
+
+#team {
+   background: #000524;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#team a, #team a:visited  { color: #fff; }
+#team a:hover, #team a:focus { color: #0762f9; }
+
+#team h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#team p {
+   line-height: 30px;
+   color: #ccc;
+}
+#team .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#team .contact-details { width: 41.66667%; }
+#team .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#team .main-col { padding-right: 5%; }
+#team .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#team .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#team .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -293,13 +403,13 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #333;
+  	background: #818181;;
   	height: 42px;
   	border-radius: 0px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #818181;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,6 +428,40 @@ ul#nav li.current a { color: #fe6928; }
   	height: 42px;
    line-height: 42px;
    border-radius: 0px;
+}
+
+.contact-details bars .skills {
+   margin-top: 36px;
+ list-style: none;
+}
+.contact-details bars li {
+ position: relative;
+   margin-bottom: 60px;
+   background: rgb(219, 219, 219);
+   height: 42px;
+   border-radius: 0px;
+}
+.contact-details bars li em {
+ font: 15px 'opensans-bold', sans-serif;
+ color: rgb(219, 219, 219);;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-weight: normal;
+ position: relative;
+ top: -36px;
+}
+.contact-details bar-expand {
+ position: absolute;
+ left: 0;
+ top: 0;
+
+ margin: 0;
+ padding-right: 24px;
+ background: #d1cfcf;
+ display: inline-block;
+ height: 42px;
+ line-height: 42px;
+ border-radius: 0px;
 }
 /*
 .git {

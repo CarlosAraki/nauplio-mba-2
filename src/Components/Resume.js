@@ -13,7 +13,6 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (

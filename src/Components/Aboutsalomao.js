@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal";
 import Slide from "react-reveal";
 
-class About extends Component {
+class Aboutsalomao extends Component {
 
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -17,9 +17,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const barbara = this.props.data.team.barbara;
+    const salomao = this.props.data.team.salomao;
 
-    const skills = this.props.data.team.barbara.skills.map((skills) => {
+    const skills = this.props.data.team.salomao.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -32,7 +32,7 @@ class About extends Component {
       );
     });
 
-    const personalidade = this.props.data.team.barbara.personalidade.map((personalidade) => {
+    const personalidade = this.props.data.team.salomao.personalidade.map((personalidade) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + personalidade.name.toLowerCase();
       const width = personalidade.level;
@@ -47,32 +47,28 @@ class About extends Component {
 
 
     return (
-      <section id="about">
+      <section id="about-white">
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={"images/" + barbara.profile}
-                alt="Barbara Pic"
+                src={"images/" + salomao.profile}
+                alt="salomao Pic"
               />
             </div>
             <div className="nine columns main-col">
-              <h1>{barbara.name}</h1>
+              <h1>{salomao.name}</h1>
               <hr/>
-              <p>{barbara.bio}</p>
+              <p>{salomao.bio}</p>
               <h2>Hard Skills</h2>
-              <p>{'\u2022'+" "+barbara.hardskills1}</p>
-              <p>{'\u2022'+" "+barbara.hardskills2}</p>
-              <p>{'\u2022'+" "+barbara.hardskills3}</p>
+              <p>{'\u2022'+" "+salomao.hardskills1}</p>
               <h2>Soft Skills</h2>
-              <p>{'\u2022'+" "+barbara.softskills1}</p>
+              <p>{'\u2022'+" "+salomao.softskills1}</p>
               <h2>Projetos</h2>
-              <p>{'\u2022'+" "+barbara.projetos1}</p>
-              <p>{'\u2022'+" "+barbara.projetos2}</p>
-              <p>{'\u2022'+" "+barbara.projetos3}</p>
+              <p>{'\u2022'+" "+salomao.projetos1}</p>
               <h2>Trabalhos Voluntários</h2>
-              <p>{'\u2022'+" "+barbara.tv1}</p>
+              <p>{'\u2022'+" "+salomao.tv1}</p>
               <div className="row">
                 <div className="columns contact-details">
                 <Slide left duration={1300}>
@@ -103,17 +99,18 @@ class About extends Component {
                   </Slide>
                 </div>
               </div>
-              
               <p>
-                <Fade bottom duration={2000}>
+              
+              <Fade bottom duration={2000}>
                   <ul className="social">
-                    <a href={barbara.linkedin} className="button">
+                    <a href={salomao.linkedin} className="button">
                       <i className="fa fa-linkedin"></i> LinkedIn
                     </a>
                   </ul>
                 </Fade>
-              </p>
-              <hr />
+                </p>
+                <hr />
+
             </div>
           </div>
         </Fade>
@@ -122,4 +119,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Aboutsalomao;

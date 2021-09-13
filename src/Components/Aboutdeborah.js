@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal";
 import Slide from "react-reveal";
 
-class About extends Component {
+class Aboutdeborah extends Component {
 
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -17,9 +17,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const barbara = this.props.data.team.barbara;
+    const deborah = this.props.data.team.deborah;
 
-    const skills = this.props.data.team.barbara.skills.map((skills) => {
+    const skills = this.props.data.team.deborah.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -32,7 +32,7 @@ class About extends Component {
       );
     });
 
-    const personalidade = this.props.data.team.barbara.personalidade.map((personalidade) => {
+    const personalidade = this.props.data.team.deborah.personalidade.map((personalidade) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + personalidade.name.toLowerCase();
       const width = personalidade.level;
@@ -53,26 +53,30 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={"images/" + barbara.profile}
-                alt="Barbara Pic"
+                src={"images/" + deborah.profile}
+                alt="deborah Pic"
               />
             </div>
             <div className="nine columns main-col">
-              <h1>{barbara.name}</h1>
+              <h1>{deborah.name}</h1>
               <hr/>
-              <p>{barbara.bio}</p>
+              <p>{deborah.bio}</p>
               <h2>Hard Skills</h2>
-              <p>{'\u2022'+" "+barbara.hardskills1}</p>
-              <p>{'\u2022'+" "+barbara.hardskills2}</p>
-              <p>{'\u2022'+" "+barbara.hardskills3}</p>
+              <p>{'\u2022'+" "+deborah.hardskills1}</p>
+              <p>{'\u2022'+" "+deborah.hardskills2}</p>
+              <p>{'\u2022'+" "+deborah.hardskills3}</p>
+              <p>{'\u2022'+" "+deborah.hardskills4}</p>
               <h2>Soft Skills</h2>
-              <p>{'\u2022'+" "+barbara.softskills1}</p>
+              <p>{'\u2022'+" "+deborah.softskills1}</p>
               <h2>Projetos</h2>
-              <p>{'\u2022'+" "+barbara.projetos1}</p>
-              <p>{'\u2022'+" "+barbara.projetos2}</p>
-              <p>{'\u2022'+" "+barbara.projetos3}</p>
+              <p>{'\u2022'+" "+deborah.projetos1}</p>
+              <p>{'\u2022'+" "+deborah.projetos2}</p>
+              <p>{'\u2022'+" "+deborah.projetos3}</p>
+              <p>{'\u2022'+" "+deborah.projetos4}</p>
+              <p>{'\u2022'+" "+deborah.projetos5}</p>
               <h2>Trabalhos Voluntários</h2>
-              <p>{'\u2022'+" "+barbara.tv1}</p>
+              <p>{'\u2022'+" "+deborah.tv1}</p>
+              <p>{'\u2022'+" "+deborah.tv2}</p>
               <div className="row">
                 <div className="columns contact-details">
                 <Slide left duration={1300}>
@@ -107,8 +111,11 @@ class About extends Component {
               <p>
                 <Fade bottom duration={2000}>
                   <ul className="social">
-                    <a href={barbara.linkedin} className="button">
+                    <a href={deborah.linkedin} className="button">
                       <i className="fa fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href={deborah.project} className="button btn project-btn">
+                      <i className="fa fa-book"> Ebook</i> 
                     </a>
                   </ul>
                 </Fade>
@@ -122,4 +129,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Aboutdeborah;

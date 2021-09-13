@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal";
 import Slide from "react-reveal";
 
-class About extends Component {
+class Aboutlayane extends Component {
 
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -17,9 +17,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const barbara = this.props.data.team.barbara;
+    const layane = this.props.data.team.layane;
 
-    const skills = this.props.data.team.barbara.skills.map((skills) => {
+    const skills = this.props.data.team.layane.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -32,7 +32,7 @@ class About extends Component {
       );
     });
 
-    const personalidade = this.props.data.team.barbara.personalidade.map((personalidade) => {
+    const personalidade = this.props.data.team.layane.personalidade.map((personalidade) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + personalidade.name.toLowerCase();
       const width = personalidade.level;
@@ -47,32 +47,35 @@ class About extends Component {
 
 
     return (
-      <section id="about">
+      <section id="about-white">
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={"images/" + barbara.profile}
-                alt="Barbara Pic"
+                src={"images/" + layane.profile}
+                alt="layane Pic"
               />
             </div>
             <div className="nine columns main-col">
-              <h1>{barbara.name}</h1>
+              <h1>{layane.name}</h1>
               <hr/>
-              <p>{barbara.bio}</p>
+              <p>{layane.bio}</p>
               <h2>Hard Skills</h2>
-              <p>{'\u2022'+" "+barbara.hardskills1}</p>
-              <p>{'\u2022'+" "+barbara.hardskills2}</p>
-              <p>{'\u2022'+" "+barbara.hardskills3}</p>
+              <p>{'\u2022'+" "+layane.hardskills1}</p>
+              <p>{'\u2022'+" "+layane.hardskills2}</p>
+              <p>{'\u2022'+" "+layane.hardskills3}</p>
+              <p>{'\u2022'+" "+layane.hardskills4}</p>
+              <p>{'\u2022'+" "+layane.hardskills5}</p>
               <h2>Soft Skills</h2>
-              <p>{'\u2022'+" "+barbara.softskills1}</p>
+              <p>{'\u2022'+" "+layane.softskills1}</p>
               <h2>Projetos</h2>
-              <p>{'\u2022'+" "+barbara.projetos1}</p>
-              <p>{'\u2022'+" "+barbara.projetos2}</p>
-              <p>{'\u2022'+" "+barbara.projetos3}</p>
+              <p>{'\u2022'+" "+layane.projetos1}</p>
+              <p>{'\u2022'+" "+layane.projetos2}</p>
+              <p>{'\u2022'+" "+layane.projetos3}</p>
               <h2>Trabalhos Voluntários</h2>
-              <p>{'\u2022'+" "+barbara.tv1}</p>
+              <p>{'\u2022'+" "+layane.tv1}</p>
+              <p>{'\u2022'+" "+layane.tv2}</p>
               <div className="row">
                 <div className="columns contact-details">
                 <Slide left duration={1300}>
@@ -107,13 +110,18 @@ class About extends Component {
               <p>
                 <Fade bottom duration={2000}>
                   <ul className="social">
-                    <a href={barbara.linkedin} className="button">
+                    <a href={layane.linkedin} className="button">
                       <i className="fa fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href={layane.project} className="button btn project-btn">
+                      <i className="fa fa-bookmark"></i> Lattes
                     </a>
                   </ul>
                 </Fade>
+                
               </p>
               <hr />
+
             </div>
           </div>
         </Fade>
@@ -122,4 +130,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Aboutlayane;

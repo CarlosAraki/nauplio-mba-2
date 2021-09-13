@@ -1,18 +1,416 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Equipe Náuplio",
+    "description":"Somos a Equipe Náuplio, um time formado por múltiplos talentos",
+    "description1":"Juntamos nossos valores e habilidades para oferecer inovação, alto desempenho, e gestão de crescimento para organizações que buscam fortalecer a sua marca e se consolidar de forma sólida no mercado",
+    "description2":" Somos apaixonados pelo que fazemos e, com a nossa expertise, queremos muito fazer parte desta jornada de transformação da Argo Menthor",
+    "description3":"Nosso principal objetivo é transformar a Argo Menthor em uma empresa consolidada, aumentando seu valor de mercado e ampliando a atuação para o cenário internacional. Além disso, também visamos aumentar a lucratividade neste período pós-pandêmico e fortalecer a empresa para figurar como uma das grandes apoiadoras das causas ambientais e sociais no país e no mundo.",
+    "description4":" Contem conosco na expedição Argonáutica - estamos motivados por este desafio! ",
     "image":"profilepic.jpg",
+    "imagelogo":"nauplio.png",
+    "team":{
+      "barbara":{
+        "name":"Bárbara Pires",
+        "profile":"barbara.png",
+        "linkedin":"https://www.linkedin.com/in/barbarafpires/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Advogada formada pela Universidade Estadual de Montes Claros (Unimontes) e cursando MBA - Direito: Gestão e Business Law (FGV). Atualmente reside em Belo Horizonte (MG).",
+        "hardskills1":"Experiência de 6 anos no setor elétrico, na área de compra e venda de energia no ambiente livre de comercialização.",
+        "hardskills2":"Faz a gestão dos débitos judicializados de clientes de grande porte, definindo estratégias de cobrança judicial e arbitral e oportunidades de negociação extrajudicial.",
+        "hardskills3":"Atua também em procedimentos de recuperação judicial, avaliando viabilidade econômico-financeira de planos de recuperação judicial e negociando enquadramentos mais estratégicos para os credores.",
+        "softskills1":"Acredita que pode contribuir com a visão da Argo Menthor por meio de seu foco na busca de soluções, flexibilidade, desenvoltura em trabalho sob pressão, comunicação clara e organização. ",
+        "projetos1":"Adoção da IFRS9, projetando e mensurando a redução no valor recuperável de ativos financeiros ",
+        "projetos2":"Desenvolvimento de due diligence de clientes e fornecedores, reduzindo riscos do negócio",
+        "projetos3":"Negociação de débitos de setores impactados pela pandemia de COVID-19, evitando a judicialização.",
+        "tv1":"Colaboradora do Voluntariado Empresarial da Cemig - Você.",
+        "skills":[
+          {
+            "name":"Dominância-40%",
+            "level":"40%"
+          },
+          {
+            "name":"Influência-32%",
+            "level":"32%"
+          },
+          {
+            "name":"Estabilidade-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-33%",
+            "level":"33%"
+          },
+          {
+            "name":"Intuitivo-73%",
+            "level":"73%"
+          },
+          {
+            "name":"Pensante-51%",
+            "level":"51%"
+          },
+          {
+            "name":"Julgador-68%",
+            "level":"68%"
+          },
+          {
+            "name":"Assertivo-42%",
+            "level":"42%"
+          }
+        ]
+      },
+      "lais":{
+        "name":"Laís Fernandes",
+        "profile":"lais.png",
+        "linkedin":"https://www.linkedin.com/in/laisfernandes/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Gerente de Contas Sênior formada em Marketing Digital na Universidade Presbiteriana Mackenzie e cursando Gestão com Ênfase em Marketing e Mídias Digitais(FGV). Atualmente reside em São Paulo (SP).",
+        "hardskills1":"16 anos de experiência na área comercial , sendo 8 anos de experiência com Marketing Digital.",
+        "hardskills2":"Faz a gestão dos débitos judicializados de clientes de grande porte, definindo estratégias de cobrança judicial e arbitral e oportunidades de negociação extrajudicial.",
+        "hardskills3":"Atua também em procedimentos de recuperação judicial, avaliando viabilidade econômico-financeira de planos de recuperação judicial e negociando enquadramentos mais estratégicos para os credores.",
+        "softskills1":"Confiança, entusiasmo e afetividade. ",
+        "projetos1":"N/I ",
+        "projetos2":"Desenvolvimento de due diligence de clientes e fornecedores, reduzindo riscos do negócio",
+        "projetos3":"Negociação de débitos de setores impactados pela pandemia de COVID-19, evitando a judicialização.",
+        "tv1":"N/I",
+        "skills":[
+          {
+            "name":"Dominância-40%",
+            "level":"40%"
+          },
+          {
+            "name":"Influência-32%",
+            "level":"32%"
+          },
+          {
+            "name":"Estabilidade-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-33%",
+            "level":"33%"
+          },
+          {
+            "name":"Intuitivo-73%",
+            "level":"73%"
+          },
+          {
+            "name":"Pensante-51%",
+            "level":"51%"
+          },
+          {
+            "name":"Julgador-68%",
+            "level":"68%"
+          },
+          {
+            "name":"Assertivo-42%",
+            "level":"42%"
+          }
+        ]
+      },
+      "carlos":{
+        "github":"https://github.com/CarlosAraki/CarlosAraki",
+        "name":"Carlos Araki",
+        "profile":"carlos.png",
+        "linkedin":"https://www.linkedin.com/in/carlos-araki/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"CTO da CESLA formado em Engenheria de Controle e Automação na Faculdade de Engenharia Mecânica(Unicamp) e cursando MBA - Gestão com Ênfase em Liderança e Inovação. Atualmente reside em Campinas (SP).",
+        "hardskills1":" Responsável de atuar no board de decisões estratégicas da empresa que envolvem Tecnologia no ramo de  Desenvolvimento, CyberSecurity e Operações.",
+        "hardskills2":"Responsável pelo alinhamento do  Departamento de DevSecOps com o RoadMap da empresa.",
+        "hardskills3":"Fluente nos Frameworks: SCRUM ,ZEND 2, Ionic SDK, React.js, Node.js, Angular.js, Django, SpringBoot.",
+        "hardskills4":"Fluente nas Ferramentas: GIT, Jenkins, Unix Operational System, AWS (EC2, S3, RDS com Aurora, Lambda), Apache, Docker, UML, FTP, APIs",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"Resiliência, Motivação,Comunicação, Flexibilidade e rápida tomada de Decisão sobre pressão",
+        "projetos1":"Organização e manutenção dos eventos relacionados à metodologia AGILE",
+        "projetos2":"Responsável pela equipe de adequação e anonimização de dados à LGPD",
+        "projetos3":"Mapeamento dos BPMNs (Business Process Model and Notation) para processos internos",
+        "projetos4":"Responsável pela equipe de implementação completa de uma esteira de deploy CI/CD",
+        "projetos5":"Implementação de classificador Haar-Cascade para identificação de Padrões ",
+        "tv1":"Presidente da Comissão de Formatura ECA014",
+        "tv2":"Organizador da Semana do Curso Automática 2015",
+        "project":"http://www.fem.unicamp.br/~automatica/automatica2015_evento.php",
+        "project2":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/CarlosAraki/objectIdentifierViaCascade/master/relatorioFinal.pdf",
+        "skills":[
+          {
+            "name":"Dominância-40%",
+            "level":"40%"
+          },
+          {
+            "name":"Influência-32%",
+            "level":"32%"
+          },
+          {
+            "name":"Estabilidade-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-63%",
+            "level":"63%"
+          },
+          {
+            "name":"Intuitivo-73%",
+            "level":"73%"
+          },
+          {
+            "name":"Pensante-51%",
+            "level":"51%"
+          },
+          {
+            "name":"Julgador-11%",
+            "level":"11%"
+          },
+          {
+            "name":"Assertivo-56%",
+            "level":"56%"
+          }
+        ]
+      },
+      "salomao":{
+        "name":"Salomão Toledano",
+        "profile":"salomao.png",
+        "linkedin":"https://www.linkedin.com/in/salom%C3%A3otoledano/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Gerente de Vendas de Vendas da VIVO formado em Economia pela Universidade federal do Amazonas e cursando MBA - Gestão com Ênfase em Liderança e Inovação.",
+        "hardskills1":" Imerso no mercado desde 2008, atuante no ramo de Telecom há mais de uma década. Com vasto conhecimento dos canais residenciais e atuante no projeto piloto de inserção dos produtos móveis em parceiros residenciais.",
+        "hardskills2":"Responsável pelo alinhamento do  Departamento de DevSecOps com o RoadMap da empresa.",
+        "hardskills3":"Fluente nos Frameworks: SCRUM ,ZEND 2, Ionic SDK, React.js, Node.js, Angular.js, Django, SpringBoot.",
+        "hardskills4":"Fluente nas Ferramentas: GIT, Jenkins, Unix Operational System, AWS (EC2, S3, RDS com Aurora, Lambda), Apache, Docker, UML, FTP, APIs",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"Senso de responsabilidade; Comprometimento ético; Proatividade e dinamismo; Habilidade com Gestão de Pessoas; Fácil adaptação; Flexibilidade para job rotation; Pensamento de liderança.",
+        "projetos1":"Desenvolvimento de parceiros comerciais nos estados do Pará e Amapá;",
+        "projetos2":"Implementação de novo modelo de remuneração de parceiros comerciais - Norte",
+        "projetos3":"Gestão de entrega de resultados",
+        "projetos4":"Gestão de indicadores qualitativos como churn e estornos",
+        "projetos5":"Responsável pela prospecção de novos parceiros comerciais - Norte",
+        "tv1":"N/I",
+        "project":"http://www.fem.unicamp.br/~automatica/automatica2015_evento.php",
+        "skills":[
+          {
+            "name":"Dominância-35%",
+            "level":"35%"
+          },
+          {
+            "name":"Influência-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Estabilidade-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Conformidade-25%",
+            "level":"25%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Intuitivo-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Pensante-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Julgador-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Assertivo-100%",
+            "level":"100%"
+          }
+        ]
+      },
+      "deborah":{
+        "name":"Déborah Dannah",
+        "profile":"deborah.png",
+        "linkedin":"https://www.linkedin.com/in/d-dannah/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Administradora de empresas com ênfase em Logística e Supply Chain e cursando MBA - Gestão com Ênfase em Logística e Supply Chain Management",
+        "hardskills1":" Adquirindo bagagem a 7 anos em processos de suprimento e a 4 anos em negociações e suprimento.",
+        "hardskills2":"Durante a academia busquei entender os  mecanismos de funcionamento do mercado. Sempre destinada a ter uma perspectiva  ampla do mercado e a interação deste com as variáveis sociais que ele é inserido. ",
+        "hardskills3":"Minha intenção nas organizações é de desenvolver e executar processos de suprimentos e logística de forma orgânica e ações atualizadas ao mercado.",
+        "hardskills4":"Tenho perfil de comprometimento, energia para fazer a diferença, os conflitos corporativos são resolvidos de forma natural focada na produtividade.",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"N/I",
+        "projetos1":"Localiza - Facilitador de Rotas Urbanas. 4ª Lugar na Universidade na 1ª Olimpíada de Empreendedorismo Goiano",
+        "projetos2":"Implementação de novo modelo de remuneração de parceiros comerciais - Norte",
+        "projetos3":"Ebook: Follow-up, o maior inimigo da Ruptura",
+        "projetos4":"Planilha: P³E – Planilha Padrão de P&D, Precificação e Posicionamento Estratégico. Ferramenta criada  desenvolvimento de equipes suplly chain na fase de pesquisa e desenvolvimento. ",
+        "projetos5":"Pesquisa Pibic: Preferências de Compras dos Consumidores do Comércio Varejista da Cidade de Anápolis - GO  ",
+        "projetos6":"Pesquisa TCC: Formação de preço de venda: um estudo de caso nas empresas do comércio varejista de Anápolis.",
+        "tv1":"Consultoria Empresa Júnior - UniEvangelica:  Consultoria voluntária para pequenas e médias empresas da cidade de Anápolis – Go e organização de eventos acadêmicos no Centro Universitário de Anápolis – UniEvangelica.",
+        "tv2":"Projeto UniCidadã: Realizávamos  atividades educativas, de saúde, informática, cultura, esporte e lazer.",
+        "project":"http://bit.ly/DDnnah",
+        "skills":[
+          {
+            "name":"Dominância-47%",
+            "level":"47%"
+          },
+          {
+            "name":"Influência-15%",
+            "level":"15%"
+          },
+          {
+            "name":"Estabilidade-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Conformidade-20%",
+            "level":"20%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-58%",
+            "level":"58%"
+          },
+          {
+            "name":"Intuitivo-59%",
+            "level":"59%"
+          },
+          {
+            "name":"Pensante-60%",
+            "level":"60%"
+          },
+          {
+            "name":"Julgador-47%",
+            "level":"47%"
+          },
+          {
+            "name":"Assertivo-58%",
+            "level":"58%"
+          }
+        ]
+      },
+      "layane":{
+        "name":"Layane Castro",
+        "profile":"layane.png",
+        "linkedin":"https://www.linkedin.com/in/layanecastro/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Mestre em Economia, Matemática e Especialista em Finanças e Controladoria. Liderança de equipes e processos. Professora, pesquisadora, líder e extremamente apaixonada pela propagação do conhecimento e desenvolvimento de pessoas. Cursando MBA-Gestão com Ênfase em Liderança e Inovação. 4 anos de atuação em Finanças e Qualidade Corporativa. 3 anos de atuação no ramo acadêmico, lecionando nas disciplinas de Matemática, Gestão de Negócios, Gestão Financeira, Análise e Elaboração de Projetos",
+        "hardskills1":"Análise e modelagem Financeira e Estatística (SaS, Stata, SAP) ",
+        "hardskills2":"Gestão e Projeção de Orçamento (OBZ, Capex, Opex)",
+        "hardskills3":"Análise de Viabilidade de Projetos",
+        "hardskills4":"Apuração e Demonstração de Resultado (P&L)",
+        "hardskills5":"Gestão da Garantia da Qualidade e Consumer Care.",
+        "softskills1":"Senso-Crítico, Comunicação, Liderança, Tomada de Decisão, Comprometimento",
+        "projetos1":"Projeto Bom Negócio Paraná (UENP e Governo do Estado do PR)",
+        "projetos2":"Dispêndios com bebidas alcoólicas: uma análise a partir de arranjos familiares brasileiros",
+        "projetos3":"Metodologia para captura e correlação de sinais de early warning e modelagem estatísticas dos dados de campo (Whirlpool)",
+        "tv1":"Professora Voluntária no Hospital do Câncer de Londrina",
+        "tv2":"Projeto Entenda Economia: suporte e apoio à população carente do Norte Pioneiro do Paraná",
+        "project":"http://lattes.cnpq.br/5007187647588585",
+        "skills":[
+          {
+            "name":"Dominância-57%",
+            "level":"57%"
+          },
+          {
+            "name":"Influência-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Estabilidade-10%",
+            "level":"10%"
+          },
+          {
+            "name":"Conformidade-20%",
+            "level":"20%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-72%",
+            "level":"72%"
+          },
+          {
+            "name":"Intuitivo-30%",
+            "level":"30%"
+          },
+          {
+            "name":"Pensante-57%",
+            "level":"57%"
+          },
+          {
+            "name":"Julgador-63%",
+            "level":"63%"
+          },
+          {
+            "name":"Assertivo-58%",
+            "level":"58%"
+          }
+        ]
+      }
+    },
+    "qualhab":{
+      "picture":"teamskills.png",
+      "title":"Skills em Equipe",
+      "qual1":"A equipe Náuplio é formada por profissionais de todas as regiões do Brasil, com formação diversa e ampla experiência na integração de equipes em ambiente virtual. Nossa diversidade de perfis enriquece o relacionamento interpessoal, garantindo a sinergia do trabalho em equipe e trazendo perspectivas que se complementam para alcançar a visão da empresa.",
+      "qual2":"Nossas competências individuais constroem uma equipe de alta produtividade, capaz de tomar decisões estratégicas, planejar e atingir metas, e que busca sempre soluções inovadoras para os desafios apresentados. Combinadas, nossas habilidades trazem um perfil arrojado, que se beneficia da excelência em gestão dos processos internos e projetos e de riscos do negócio.",
+      "qual3":"A equipe Náuplio orgulha-se de sua visão holística e tem o desenvolvimento sustentável como seu grande propósito, atuando com ética e responsabilidade social e ambiental."
+    },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Gostou da equipe que vai alavancar seu negócios? Contate-nos.",
     "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "phone": "99999999",
+    "github":"https://github.com/CarlosAraki/",
+    "project":"https://github.com/CarlosAraki/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+      "street":"Rua",
+      "city":"Cidade",
+      "state":"SP",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
@@ -20,7 +418,7 @@
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/CarlosAraki/",
         "className":"fa fa-facebook"
       },
       {
@@ -40,7 +438,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/CarlosAraki/",
         "className":"fa fa-github"
       }
     ]
