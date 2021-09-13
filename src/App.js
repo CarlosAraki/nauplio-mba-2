@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Aboutlais from "./Components/Aboutlais";
 import Aboutcarlos from "./Components/Aboutcarlos";
+import Aboutsalomao from "./Components/Aboutsalomao";
 import Team from "./Components/Team";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
@@ -50,6 +51,7 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Aboutlais data={this.state.resumeData.main} />
         <Aboutcarlos data={this.state.resumeData.main} />
+        <Aboutsalomao data={this.state.resumeData.main} />
         {/* <Team data={this.state.resumeData.main} /> */}
         {/* <Resume data={this.state.resumeData.resume} /> */}
         <Portfolio data={this.state.resumeData.portfolio} />

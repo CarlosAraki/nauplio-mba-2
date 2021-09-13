@@ -181,7 +181,7 @@
             "level":"73%"
           },
           {
-            "name":"Pensante-44%",
+            "name":"Pensante-100%",
             "level":"51%"
           },
           {
@@ -194,9 +194,73 @@
           }
         ]
       },
+      "salomao":{
+        "name":"Salomão Toledano",
+        "profile":"salomao.png",
+        "linkedin":"https://www.linkedin.com/in/salom%C3%A3otoledano/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Gerente de Vendas de Vendas da VIVO formado em Economia pela Universidade federal do Amazonas e cursando MBA - Gestão com Ênfase em Liderança e Inovação.",
+        "hardskills1":" Imerso no mercado desde 2008, atuante no ramo de Telecom há mais de uma década. Com vasto conhecimento dos canais residenciais e atuante no projeto piloto de inserção dos produtos móveis em parceiros residenciais.",
+        "hardskills2":"Responsável pelo alinhamento do  Departamento de DevSecOps com o RoadMap da empresa.",
+        "hardskills3":"Fluente nos Frameworks: SCRUM ,ZEND 2, Ionic SDK, React.js, Node.js, Angular.js, Django, SpringBoot.",
+        "hardskills4":"Fluente nas Ferramentas: GIT, Jenkins, Unix Operational System, AWS (EC2, S3, RDS com Aurora, Lambda), Apache, Docker, UML, FTP, APIs",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"Senso de responsabilidade; Comprometimento ético; Proatividade e dinamismo; Habilidade com Gestão de Pessoas; Fácil adaptação; Flexibilidade para job rotation; Pensamento de liderança.",
+        "projetos1":"Desenvolvimento de parceiros comerciais nos estados do Pará e Amapá;",
+        "projetos2":"Implementação de novo modelo de remuneração de parceiros comerciais - Norte",
+        "projetos3":"Gestão de entrega de resultados",
+        "projetos4":"Gestão de indicadores qualitativos como churn e estornos",
+        "projetos5":"Responsável pela prospecção de novos parceiros comerciais - Norte",
+        "tv1":"N/I",
+        "project":"http://www.fem.unicamp.br/~automatica/automatica2015_evento.php",
+        "skills":[
+          {
+            "name":"Dominância-35%",
+            "level":"35%"
+          },
+          {
+            "name":"Influência-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Estabilidade-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Conformidade-25%",
+            "level":"25%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Intuitivo-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Pensante-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Julgador-100%",
+            "level":"100%"
+          },
+          {
+            "name":"Assertivo-100%",
+            "level":"100%"
+          }
+        ]
+      },
       "deborah":"deborah.png",
-      "layane":"layane.png",
-      "salomao":"salomao.png"
+      "layane":"layane.png"
     },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
