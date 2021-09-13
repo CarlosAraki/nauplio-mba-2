@@ -12,6 +12,7 @@ import Aboutdeborah from "./Components/Aboutdeborah";
 import Aboutlayane from "./Components/Aboutlayane";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import Objetivo from "./Components/Objetivo";
 
 class App extends Component {
   constructor(props) {
@@ -48,6 +49,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
+        <Objetivo data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Aboutlais data={this.state.resumeData.main} />
         <Aboutcarlos data={this.state.resumeData.main} />
