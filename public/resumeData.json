@@ -2,7 +2,7 @@
   "main": {
     "name":"Equipe Náuplio",
     "description":"Somos um time formado por múltiplos talentos",
-    "description1":"Juntamos nossos valores e habilidades para oferecer inovação, alto desempenho, e gestão de crescimento para organizações que buscam fortalecer a sua marca e se consolidar de forma sólida no mercado",
+    "description1":"Juntamos nossos valores e habilidades para oferecer inovação, alto desempenho, e gestão de crescimento para organizações que buscam fortalecer a sua marca e se consolidar no mercado",
     "description2":" Somos apaixonados pelo que fazemos e, com a nossa expertise, queremos muito fazer parte desta jornada de transformação da Argo Menthor",
     "description3":"Nosso principal objetivo é transformar a Argo Menthor em uma empresa consolidada, aumentando seu valor de mercado e ampliando a atuação para o cenário internacional. Além disso, também visamos aumentar a lucratividade neste período pós-pandêmico e fortalecer a empresa para figurar como uma das grandes apoiadoras das causas ambientais e sociais no país e no mundo.",
     "description4":" Contem conosco na expedição Argonáutica - estamos motivados por este desafio! ",
@@ -83,9 +83,11 @@
         "hardskills1":"16 anos de experiência na área comercial , sendo 8 anos de experiência com Marketing Digital.",
         "hardskills2":"Desenvolveu  grandes parcerias  com  empresas de diversos segmentos ajudando melhorar  a performance em midias digitais, através de softwares e integrações com aplicações, participando de reuniões  de mapeamento da operação do cliente, desenvolvimento do negócio, fechamento da venda até a implementação do projeto.",
         "hardskills3":"Participação em projetos de integração da plataforma de automação de marketing digital ( email marketing, mobile marketing, midias sociais, survey, landing pages). com outras aplicações : Ecommerce, CRM,ERP,blog, entre outros.",
-        "softskills1":"Confiança, entusiasmo e afetividade, é uma entusiasta, que confia  na sua experiência, influência as pessoas de forma positiva e extremamente apaixonada pelo que faz.",
-        "projetos1":"Participou a frente de um grande Projeto de automatização das campanhas de uma grande Universidade da Bahia, auxiliando na estratégia de definição e criação das réguas de relacionamento com os alunos e candidatos, conquistando o aumento de novos candidatos para a universidade e fidelizando seus alunos. ",
-        "projetos2":"Desenvolveu um Projeto em parceria  com uma  grande seguradora exclusiva para funcionários de uma grande autarquia, apoiando no processo de transformação digital para comunicação com seus clientes,  pois os meios de comunicação eram com materiais impressos além da economia gerada para o cliente, e da melhoria da imagem da empresa perante as causas ambientais ajudando a empresa se concientizar a comunicação melhorou de forma significativa  com o seus beneficiários. ",
+
+        "softskills1":"Confiança, entusiasmo e afetividade, é uma entusiasta, que confia  na sua experiência, influencia as pessoas de forma positiva e extremamente apaixonada pelo que faz.",
+        "projetos1":"Participou a frente de um grande Projeto de automatização das campanhas de uma grande Universidade da Bahia, auxiliando na estratégia de definição e criação das réguas de relacionamento com os alunos e candidatos, conquistando o aumento de novos candidatos para a universidade e fidelizando seus alunos.",
+        "projetos2":"Desenvolveu um Projeto em parceria  com uma  grande seguradora exclusiva para funcionários de uma grande autarquia, apoiando no processo de transformação digital para comunicação com seus clientes,  pois os meios de comunicação eram com materiais impressos além da economia gerada para o cliente, e da melhoria da imagem da empresa perante as causas ambientais ajudando a empresa se concientizar a comunicação melhorou de forma significativa  com o seus beneficiários.",
+
         "projetos3":"Negociação de débitos de setores impactados pela pandemia de COVID-19, evitando a judicialização.",
         "tv1":"N/I",
         "skills":[
@@ -395,11 +397,18 @@
       }
     },
     "qualhab":{
-      "picture":"teamskills.png",
+      "picture":"teamskill2.png",
       "title":"Skills em Equipe",
       "qual1":"A equipe Náuplio é formada por profissionais de todas as regiões do Brasil, com formação diversa e ampla experiência na integração de equipes em ambiente virtual. Nossa diversidade de perfis enriquece o relacionamento interpessoal, garantindo a sinergia do trabalho em equipe e trazendo perspectivas que se complementam para alcançar a visão da empresa.",
       "qual2":"Nossas competências individuais constroem uma equipe de alta produtividade, capaz de tomar decisões estratégicas, planejar e atingir metas, e que busca sempre soluções inovadoras para os desafios apresentados. Combinadas, nossas habilidades trazem um perfil arrojado, que se beneficia da excelência em gestão dos processos internos e projetos e de riscos do negócio.",
       "qual3":"A equipe Náuplio orgulha-se de sua visão holística e tem o desenvolvimento sustentável como seu grande propósito, atuando com ética e responsabilidade social e ambiental."
+    },
+    "focus":{
+      "picture":"objetivo1.png",
+      "title":"Objetivo da Equipe Náuplio.",
+      "foc1":"Nosso principal objetivo é transformar a Argo Menthor em uma empresa consolidada, aumentando seu valor de mercado e ampliando a atuação para o cenário internacional. ",
+      "foc2":"Além disso, também visamos aumentar a lucratividade neste período pós-pandêmico e fortalecer a empresa para figurar como uma das grandes apoiadoras das causas ambientais e sociais no país e no mundo.",
+      "foc3":"Buscamos trabalhar de forma colaborativa e estimular o engajamento entre empresa, sociedade e clientes, utilizando ferramentas como crowdsourcing para construir soluções inovadoras."
     },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Gostou da equipe que vai alavancar seu negócios? Contate-nos.",
