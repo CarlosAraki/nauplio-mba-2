@@ -22,15 +22,13 @@ class Objetivo extends Component {
               >
                 <div style={{ textAlign: "center" }} className="item-wrap">
                     <img
-                    src="https://www.averatrading.com/images/target.png"
+                    src="https://cdn-icons-png.flaticon.com/256/1694/1694364.png"
                     alt="Obj Pic"
                   />
                 </div>
-
-                <p>{'\u2022'+" "+focus.foc1}</p>
-                <p>{'\u2022'+" "+focus.foc2}</p>
-                <p>{'\u2022'+" "+focus.foc3}</p>
-                 
+                <h3  className="responsive-headline" >{focus.foc1}</h3>
+                <h3  className="responsive-headline" >{focus.foc2}</h3>
+                <h3  className="responsive-headline" >{focus.foc3}</h3>
               </div>
             </div>
           </div>
