@@ -13,6 +13,7 @@ class Header extends Component {
     const description2 = this.props.data.description2;
     const description1 = this.props.data.description1;
     const description3 = this.props.data.description3;
+    const description4 = this.props.data.description4;
     const logopic = "images/" + this.props.data.imagelogo;
 
     return (
@@ -42,7 +43,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Qualidade e Habilidades
+                Qualidades e Habilidades
               </a>
             </li>
 
@@ -71,7 +72,7 @@ class Header extends Component {
               <h3  className="responsive-headline">{description1}.</h3>
               <h3  className="responsive-headline">{description2}.</h3>
               <hr />
-              <h3  className="responsive-headline">{description3}</h3>
+              <h3  className="responsive-headline">{description4}</h3>
             </Fade>
             
           </div>

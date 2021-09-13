@@ -7,31 +7,26 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
-
-      return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
-        </div>
-      );
-    });
+    const qualhab = this.props.data.qualhab;
+   console.log(qualhab)
 
     return (
       <section id="portfolio">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Qualidades e Habilidades</h1>
 
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
-                {projects}
+                <p>{'\u2022'+" "+qualhab.qual1}</p>
+                <p>{'\u2022'+" "+qualhab.qual2}</p>
+                <p>{'\u2022'+" "+qualhab.qual3}</p>
+                 <div style={{ textAlign: "center" }} className="item-wrap">
+                  <Zmage alt={qualhab.title} src={"images/" + qualhab.picture} />
+                </div>
               </div>
             </div>
           </div>

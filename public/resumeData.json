@@ -1,10 +1,11 @@
 {
   "main": {
     "name":"Equipe Náuplio",
-    "description":"Somos a Equipe Náuplio, um time formado por talentos em múltiplos segmentos",
+    "description":"Somos a Equipe Náuplio, um time formado por múltiplos talentos",
     "description1":"Juntamos nossos valores e habilidades para oferecer inovação, alto desempenho, e gestão de crescimento para organizações que buscam fortalecer a sua marca e se consolidar de forma sólida no mercado",
     "description2":" Somos apaixonados pelo que fazemos e, com a nossa expertise, queremos muito fazer parte desta jornada de transformação da Argo Menthor",
-    "description3":" Contem conosco na expedição Argonáutica - estamos motivados por este desafio! ",
+    "description3":"Nosso principal objetivo é transformar a Argo Menthor em uma empresa consolidada, aumentando seu valor de mercado e ampliando a atuação para o cenário internacional. Além disso, também visamos aumentar a lucratividade neste período pós-pandêmico e fortalecer a empresa para figurar como uma das grandes apoiadoras das causas ambientais e sociais no país e no mundo.",
+    "description4":" Contem conosco na expedição Argonáutica - estamos motivados por este desafio! ",
     "image":"profilepic.jpg",
     "imagelogo":"nauplio.png",
     "team":{
@@ -393,16 +394,23 @@
         ]
       }
     },
+    "qualhab":{
+      "picture":"teamskills.png",
+      "title":"Skills em Equipe",
+      "qual1":"A equipe Náuplio é formada por profissionais de todas as regiões do Brasil, com formação diversa e ampla experiência na integração de equipes em ambiente virtual. Nossa diversidade de perfis enriquece o relacionamento interpessoal, garantindo a sinergia do trabalho em equipe e trazendo perspectivas que se complementam para alcançar a visão da empresa.",
+      "qual2":"Nossas competências individuais constroem uma equipe de alta produtividade, capaz de tomar decisões estratégicas, planejar e atingir metas, e que busca sempre soluções inovadoras para os desafios apresentados. Combinadas, nossas habilidades trazem um perfil arrojado, que se beneficia da excelência em gestão dos processos internos e projetos e de riscos do negócio.",
+      "qual3":"A equipe Náuplio orgulha-se de sua visão holística e tem o desenvolvimento sustentável como seu grande propósito, atuando com ética e responsabilidade social e ambiental."
+    },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Gostou da equipe que vai alavancar seu negócios? Contate-nos.",
     "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "phone": "99999999",
+    "github":"https://github.com/CarlosAraki/",
+    "project":"https://github.com/CarlosAraki/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+      "street":"Rua",
+      "city":"Cidade",
+      "state":"SP",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
@@ -410,7 +418,7 @@
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/CarlosAraki/",
         "className":"fa fa-facebook"
       },
       {
@@ -430,7 +438,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/CarlosAraki/",
         "className":"fa fa-github"
       }
     ]
