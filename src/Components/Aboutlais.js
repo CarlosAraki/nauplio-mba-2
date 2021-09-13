@@ -63,10 +63,13 @@ class Aboutlais extends Component {
               <p>{lais.bio}</p>
               <h2>Hard Skills</h2>
               <p>{'\u2022'+" "+lais.hardskills1}</p>
+              <p>{'\u2022'+" "+lais.hardskills2}</p>
+              <p>{'\u2022'+" "+lais.hardskills3}</p>
               <h2>Soft Skills</h2>
               <p>{'\u2022'+" "+lais.softskills1}</p>
               <h2>Projetos</h2>
               <p>{'\u2022'+" "+lais.projetos1}</p>
+              <p>{'\u2022'+" "+lais.projetos2}</p>
               <h2>Trabalhos Voluntários</h2>
               <p>{'\u2022'+" "+lais.tv1}</p>
               <div className="row">
