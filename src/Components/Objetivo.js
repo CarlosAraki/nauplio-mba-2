@@ -22,7 +22,7 @@ class Objetivo extends Component {
               >
                 <div style={{ textAlign: "center" }} className="item-wrap">
                     <img
-                    src={"images/" + focus.picture}
+                    src="https://www.averatrading.com/images/target.png"
                     alt="Obj Pic"
                   />
                 </div>
