@@ -21,7 +21,31 @@ class About extends Component {
     const github = this.props.data.github;
     const barbara = this.props.data.team.barbara;
 
-  
+    const skills = this.props.data.team.barbara.skills.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
+
+      return (
+        <li key={skills.name}>
+          <span style={{ width, backgroundColor }} className={className}></span>
+          <em>{skills.name}</em>
+        </li>
+      );
+    });
+
+    const personalidade = this.props.data.team.barbara.personalidade.map((personalidade) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + personalidade.name.toLowerCase();
+      const width = personalidade.level;
+
+      return (
+        <li key={personalidade.name}>
+          <span style={{ width, backgroundColor }} className={className}></span>
+          <em>{personalidade.name}</em>
+        </li>
+      );
+    });
 
 
     return (
@@ -53,12 +77,35 @@ class About extends Component {
               <p>{'\u2022'+" "+barbara.tv1}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  
+                <Slide left duration={1300}>
+                  <div className="row skill">
+                    
+                    <div className="nine columns main-col">
+                      <h2>Comportamento</h2>
+
+                      <div className="bars">
+                        <ul className="skills">{skills}</ul>
+                      </div>
+                    </div>
+                  </div>
+                </Slide>
                 </div>
-                <div className="columns download">
-                  
+                <div className="columns contact-details">
+                  <Slide left duration={1300}>
+                    <div className="row skill">
+                      
+                      <div className="nine columns main-col">
+                        <h2>Personalidade</h2>
+
+                        <div className="bars">
+                          <ul className="skills">{personalidade}</ul>
+                        </div>
+                      </div>
+                    </div>
+                  </Slide>
                 </div>
               </div>
+              
               <p>
                 <a href={barbara.linkedin} className="button">
                   <i className="fa fa-linkedin"></i> LinkedIn

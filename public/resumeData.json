@@ -28,35 +28,44 @@
         "tv1":"Colaboradora do Voluntariado Empresarial da Cemig - Você.",
         "skills":[
           {
-            "name":"Python",
-            "level":"60%"
+            "name":"Dominância-40%",
+            "level":"40%"
           },
           {
-            "name":"VueJs",
-            "level":"55%"
+            "name":"Influência-32%",
+            "level":"32%"
           },
           {
-            "name":"ReactJs",
-            "level":"50%"
+            "name":"Estabilidade-22%",
+            "level":"22%"
           },
           {
-            "name":"CSS",
-            "level":"90%"
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-33%",
+            "level":"33%"
           },
           {
-            "name":"PHP",
-            "level":"80%"
+            "name":"Intuitivo-73%",
+            "level":"73%"
           },
           {
-            "name":"Swift",
-            "level":"50%"
+            "name":"Pensante-51%",
+            "level":"51%"
           },
           {
-            "name":"JAVA",
-            "level":"80%"
+            "name":"Julgador-68%",
+            "level":"68%"
+          },
+          {
+            "name":"Assertivo-42%",
+            "level":"42%"
           }
         ]
-
       },
       "deborah":"deborah.png",
       "lais":"lais.png",

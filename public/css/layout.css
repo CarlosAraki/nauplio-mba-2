@@ -348,13 +348,13 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #333;
+  	background: #818181;;
   	height: 42px;
   	border-radius: 0px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #818181;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -373,6 +373,40 @@ ul#nav li.current a { color: #fe6928; }
   	height: 42px;
    line-height: 42px;
    border-radius: 0px;
+}
+
+.contact-details bars .skills {
+   margin-top: 36px;
+ list-style: none;
+}
+.contact-details bars li {
+ position: relative;
+   margin-bottom: 60px;
+   background: rgb(219, 219, 219);
+   height: 42px;
+   border-radius: 0px;
+}
+.contact-details bars li em {
+ font: 15px 'opensans-bold', sans-serif;
+ color: rgb(219, 219, 219);;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-weight: normal;
+ position: relative;
+ top: -36px;
+}
+.contact-details bar-expand {
+ position: absolute;
+ left: 0;
+ top: 0;
+
+ margin: 0;
+ padding-right: 24px;
+ background: #d1cfcf;
+ display: inline-block;
+ height: 42px;
+ line-height: 42px;
+ border-radius: 0px;
 }
 /*
 .git {
