@@ -10,8 +10,6 @@ import Aboutcarlos from "./Components/Aboutcarlos";
 import Aboutsalomao from "./Components/Aboutsalomao";
 import Aboutdeborah from "./Components/Aboutdeborah";
 import Aboutlayane from "./Components/Aboutlayane";
-import Team from "./Components/Team";
-import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 

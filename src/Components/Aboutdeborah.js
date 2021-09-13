@@ -17,8 +17,6 @@ class Aboutdeborah extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const deborah = this.props.data.team.deborah;
 
     const skills = this.props.data.team.deborah.skills.map((skills) => {

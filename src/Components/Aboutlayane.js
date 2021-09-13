@@ -17,8 +17,6 @@ class Aboutlayane extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const layane = this.props.data.team.layane;
 
     const skills = this.props.data.team.layane.skills.map((skills) => {

@@ -17,8 +17,6 @@ class Aboutlais extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const lais = this.props.data.team.lais;
 
     const skills = this.props.data.team.lais.skills.map((skills) => {

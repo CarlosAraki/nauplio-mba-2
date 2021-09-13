@@ -17,8 +17,6 @@ class Aboutsalomao extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const salomao = this.props.data.team.salomao;
 
     const skills = this.props.data.team.salomao.skills.map((skills) => {
