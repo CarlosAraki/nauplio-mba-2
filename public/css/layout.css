@@ -196,6 +196,11 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
+#about h1 {
+   font: 32px/40px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
 #about p {
    line-height: 30px;
    color: #ccc;
@@ -212,15 +217,15 @@ ul#nav li.current a { color: #fe6928; }
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
+#about .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#about  .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#about  .button i {
    margin-right: 15px;
    font-size: 20px;
 }
