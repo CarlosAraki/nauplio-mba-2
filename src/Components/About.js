@@ -6,7 +6,7 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic1 = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -15,6 +15,8 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+    const project = this.props.data.project;
+    const github = this.props.data.github;
 
     return (
       <section id="about">
@@ -23,7 +25,7 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
+                src={profilepic1}
                 alt="Nordic Giant Profile Pic"
               />
             </div>
@@ -51,8 +53,19 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                      <i className="fa fa-linkedin"></i> LinkedIn
                     </a>
+                    <hr />
+                  <Fade bottom duration={2000}>
+                    <ul className="social">
+                      <a href={project} className="button btn project-btn">
+                        <i className="fa fa-book"></i>Project
+                      </a>
+                      <a href={github} className="button btn github-btn">
+                        <i className="fa fa-github"></i>Github
+                      </a>
+                    </ul>
+                  </Fade>
                   </p>
                 </div>
               </div>

@@ -1,8 +1,29 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Equipe Náuplio",
+    "description":"Somos a Equipe Náuplio, um time formado por talentos em múltiplos segmentos",
+    "description1":"Juntamos nossos valores e habilidades para oferecer inovação, alto desempenho, e gestão de crescimento para organizações que buscam fortalecer a sua marca e se consolidar de forma sólida no mercado",
+    "description2":" Somos apaixonados pelo que fazemos e, com a nossa expertise, queremos muito fazer parte desta jornada de transformação da Argo Menthor",
+    "description3":" Contem conosco na expedição Argonáutica - estamos motivados por este desafio! ",
     "image":"profilepic.jpg",
+    "imagelogo":"nauplio.png",
+    "team":{
+      "barbara":{
+        "profile":"barbara.png",
+        "littleDesc":"Lorem Ipsum",
+        "gotoPage":"barbara"
+      },
+      "deborah":"deborah.png",
+      "lais":"lais.png",
+      "layane":"layane.png",
+      "salomao":"salomao.png",
+      "carlos":"carlos.png"
+    },
+    "carlos":{
+      "imageprofile":"carlos.jpg",
+      "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in."
+
+    },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",

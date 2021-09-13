@@ -10,6 +10,10 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const description2 = this.props.data.description2;
+    const description1 = this.props.data.description1;
+    const description3 = this.props.data.description3;
+    const logopic = "images/" + this.props.data.imagelogo;
 
     return (
       <header id="home">
@@ -26,31 +30,25 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Quem Somos?
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+                Equipe
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Qualidade e Habilidades
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Contato
               </a>
             </li>
           </ul>
@@ -59,22 +57,23 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
-            </Fade>
-            <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
-            </Fade>
+            <div className="responsive-headline">
+              <img
+                className="profile-pic"
+                src={logopic}
+                alt="Logo PIc"
+              />
+            </div>
             <hr />
-            <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
-              </ul>
+
+              <h1 className="responsive-headline">{name}</h1>
+              <h3  className="responsive-headline" >{description}.</h3>
+              <h3  className="responsive-headline">{description1}.</h3>
+              <h3  className="responsive-headline">{description2}.</h3>
+              <hr />
+              <h3  className="responsive-headline">{description3}</h3>
             </Fade>
+            
           </div>
         </div>
 
