@@ -233,6 +233,61 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
+/* c. About - White Section
+/* ------------------------------------------------------------------ */
+
+#about-white {
+   background: #f7f7f7;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#about-white a, #about-white a:visited  { color: #313131; }
+#about-white a:hover, #about-white a:focus { color: #0762f9; }
+
+#about-white h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 12px;
+}
+#about-white h1 {
+   font: 32px/40px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 12px;
+}
+#about-white p {
+   line-height: 30px;
+   color: rgb(31, 30, 30);
+}
+#about-white .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#about-white .contact-details { width: 41.66667%; }
+#about-white .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#about-white .main-col { padding-right: 5%; }
+#about-white .button {
+   margin-top: 6px;
+   background: rgb(199, 199, 199);
+}
+#about-white  .button:hover {
+   background: #b3b0b0;
+   color: #afaeae;
+}
+#about-white  .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
 /* c. Team Section
 /* ------------------------------------------------------------------ */
 

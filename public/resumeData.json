@@ -9,6 +9,7 @@
     "imagelogo":"nauplio.png",
     "team":{
       "barbara":{
+        "name":"Bárbara Pires",
         "profile":"barbara.png",
         "linkedin":"https://www.linkedin.com/in/barbarafpires/",
         "function":"Advogada formada pela Universidade Estadual de Montes Claros",
@@ -67,8 +68,67 @@
           }
         ]
       },
+      "lais":{
+        "name":"Laís Fernandes",
+        "profile":"lais.png",
+        "linkedin":"https://www.linkedin.com/in/laisfernandes/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Gerente de Contas Sênior formada em Marketing Digital na Universidade Presbiteriana Mackenzie e cursando Gestão com Ênfase em Marketing e Mídias Digitais(FGV). Atualmente reside em São Paulo (SP).",
+        "hardskills1":"16 anos de experiência na área comercial , sendo 8 anos de experiência com Marketing Digital.",
+        "hardskills2":"Faz a gestão dos débitos judicializados de clientes de grande porte, definindo estratégias de cobrança judicial e arbitral e oportunidades de negociação extrajudicial.",
+        "hardskills3":"Atua também em procedimentos de recuperação judicial, avaliando viabilidade econômico-financeira de planos de recuperação judicial e negociando enquadramentos mais estratégicos para os credores.",
+        "softskills1":"Confiança, entusiasmo e afetividade. ",
+        "projetos1":"N/I ",
+        "projetos2":"Desenvolvimento de due diligence de clientes e fornecedores, reduzindo riscos do negócio",
+        "projetos3":"Negociação de débitos de setores impactados pela pandemia de COVID-19, evitando a judicialização.",
+        "tv1":"N/I",
+        "skills":[
+          {
+            "name":"Dominância-40%",
+            "level":"40%"
+          },
+          {
+            "name":"Influência-32%",
+            "level":"32%"
+          },
+          {
+            "name":"Estabilidade-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-33%",
+            "level":"33%"
+          },
+          {
+            "name":"Intuitivo-73%",
+            "level":"73%"
+          },
+          {
+            "name":"Pensante-51%",
+            "level":"51%"
+          },
+          {
+            "name":"Julgador-68%",
+            "level":"68%"
+          },
+          {
+            "name":"Assertivo-42%",
+            "level":"42%"
+          }
+        ]
+      },
       "deborah":"deborah.png",
-      "lais":"lais.png",
       "layane":"layane.png",
       "salomao":"salomao.png",
       "carlos":"carlos.png"
