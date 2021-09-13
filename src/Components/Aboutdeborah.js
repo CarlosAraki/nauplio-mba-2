@@ -65,12 +65,10 @@ class Aboutdeborah extends Component {
               <p>{'\u2022'+" "+deborah.hardskills1}</p>
               <p>{'\u2022'+" "+deborah.hardskills2}</p>
               <p>{'\u2022'+" "+deborah.hardskills3}</p>
-              <p>{'\u2022'+" "+deborah.hardskills4}</p>
               <h2>Soft Skills</h2>
               <p>{'\u2022'+" "+deborah.softskills1}</p>
               <h2>Projetos</h2>
               <p>{'\u2022'+" "+deborah.projetos1}</p>
-              <p>{'\u2022'+" "+deborah.projetos2}</p>
               <p>{'\u2022'+" "+deborah.projetos3}</p>
               <p>{'\u2022'+" "+deborah.projetos4}</p>
               <p>{'\u2022'+" "+deborah.projetos5}</p>
