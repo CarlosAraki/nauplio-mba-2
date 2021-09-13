@@ -328,7 +328,70 @@
           }
         ]
       },
-      "layane":"layane.png"
+      "layane":{
+        "name":"Layane Castro",
+        "profile":"layane.png",
+        "linkedin":"https://www.linkedin.com/in/layanecastro/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"Mestre em Economia, Matemática e Especialista em Finanças e Controladoria. Liderança de equipes e processos. Professora, pesquisadora, líder e extremamente apaixonada pela propagação do conhecimento e desenvolvimento de pessoas. Cursando MBA-Gestão com Ênfase em Liderança e Inovação. 4 anos de atuação em Finanças e Qualidade Corporativa. 3 anos de atuação no ramo acadêmico, lecionando nas disciplinas de Matemática, Gestão de Negócios, Gestão Financeira, Análise e Elaboração de Projetos",
+        "hardskills1":"Análise e modelagem Financeira e Estatística (SaS, Stata, SAP) ",
+        "hardskills2":"Gestão e Projeção de Orçamento (OBZ, Capex, Opex)",
+        "hardskills3":"Análise de Viabilidade de Projetos",
+        "hardskills4":"Apuração e Demonstração de Resultado (P&L)",
+        "hardskills5":"Gestão da Garantia da Qualidade e Consumer Care.",
+        "softskills1":"Senso-Crítico, Comunicação, Liderança, Tomada de Decisão, Comprometimento",
+        "projetos1":"Projeto Bom Negócio Paraná (UENP e Governo do Estado do PR)",
+        "projetos2":"Dispêndios com bebidas alcoólicas: uma análise a partir de arranjos familiares brasileiros",
+        "projetos3":"Metodologia para captura e correlação de sinais de early warning e modelagem estatísticas dos dados de campo (Whirlpool)",
+        "tv1":"Professora Voluntária no Hospital do Câncer de Londrina",
+        "tv2":"Projeto Entenda Economia: suporte e apoio à população carente do Norte Pioneiro do Paraná",
+        "project":"http://lattes.cnpq.br/5007187647588585",
+        "skills":[
+          {
+            "name":"Dominância-57%",
+            "level":"57%"
+          },
+          {
+            "name":"Influência-17%",
+            "level":"17%"
+          },
+          {
+            "name":"Estabilidade-10%",
+            "level":"10%"
+          },
+          {
+            "name":"Conformidade-20%",
+            "level":"20%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-72%",
+            "level":"72%"
+          },
+          {
+            "name":"Intuitivo-30%",
+            "level":"30%"
+          },
+          {
+            "name":"Pensante-57%",
+            "level":"57%"
+          },
+          {
+            "name":"Julgador-63%",
+            "level":"63%"
+          },
+          {
+            "name":"Assertivo-58%",
+            "level":"58%"
+          }
+        ]
+      }
     },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",

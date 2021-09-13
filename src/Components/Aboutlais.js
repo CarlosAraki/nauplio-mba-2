@@ -103,21 +103,17 @@ class Aboutlais extends Component {
               </div>
               
               <p>
-                <a href={lais.linkedin} className="button">
-                  <i className="fa fa-linkedin"></i> LinkedIn
-                </a>
-                <hr />
+                
               <Fade bottom duration={2000}>
                 <ul className="social">
-                  <a href={project} className="button btn project-btn">
-                    <i className="fa fa-book"></i>Project
-                  </a>
-                  <a href={github} className="button btn github-btn">
-                    <i className="fa fa-github"></i>Github
+                  <a href={lais.linkedin} className="button">
+                    <i className="fa fa-linkedin"></i> LinkedIn
                   </a>
                 </ul>
               </Fade>
               </p>
+              <hr />
+
             </div>
           </div>
         </Fade>
