@@ -128,10 +128,75 @@
           }
         ]
       },
+      "carlos":{
+        "github":"https://github.com/CarlosAraki/CarlosAraki",
+        "name":"Carlos Araki",
+        "profile":"carlos.png",
+        "linkedin":"https://www.linkedin.com/in/carlos-araki/",
+        "function":"Advogada formada pela Universidade Estadual de Montes Claros",
+        "mba":"MBA - Direito: Gestão e Business Law",
+        "city":"Belo Horizonte",
+        "state":"MG",
+        "phone":"N/I",
+        "email":"N/I",
+        "bio":"CTO da CESLA formado em Engenheria de Controle e Automação na Faculdade de Engenharia Mecânica(Unicamp) e cursando MBA - Gestão com Ênfase em Liderança e Inovação. Atualmente reside em Campinas (SP).",
+        "hardskills1":" Responsável de atuar no board de decisões estratégicas da empresa que envolvem Tecnologia no ramo de  Desenvolvimento, CyberSecurity e Operações.",
+        "hardskills2":"Responsável pelo alinhamento do  Departamento de DevSecOps com o RoadMap da empresa.",
+        "hardskills3":"Fluente nos Frameworks: SCRUM ,ZEND 2, Ionic SDK, React.js, Node.js, Angular.js, Django, SpringBoot.",
+        "hardskills4":"Fluente nas Ferramentas: GIT, Jenkins, Unix Operational System, AWS (EC2, S3, RDS com Aurora, Lambda), Apache, Docker, UML, FTP, APIs",
+        "hardskills5":"Fluente nas Linguagens de Programação: Python (incluindo as bibliotecas Data Analysis, OpenCV, Jupyter, TensorFlow, Sklearn), C, Matlab e Simulink, VHDL, HTML, CSS, JavaScript, TypeScript, PHP; Base de Dados: MySql, SQlite, PostgreSQL, MariaDB, MongoDB com Mongoose.",
+        "softskills1":"Resiliência, Motivação,Comunicação, Flexibilidade e rápida tomada de Decisão sobre pressão",
+        "projetos1":"Organização e manutenção dos eventos relacionados à metodologia AGILE",
+        "projetos2":"Responsável pela equipe de adequação e anonimização de dados à LGPD",
+        "projetos3":"Mapeamento dos BPMNs (Business Process Model and Notation) para processos internos",
+        "projetos4":"Responsável pela equipe de implementação completa de uma esteira de deploy CI/CD;",
+        "tv1":"Presidente da Comissão de Formatura ECA014",
+        "tv2":"Organizador da Semana do Curso Automática 2015",
+        "project":"http://www.fem.unicamp.br/~automatica/automatica2015_evento.php",
+        "skills":[
+          {
+            "name":"Dominância-40%",
+            "level":"40%"
+          },
+          {
+            "name":"Influência-32%",
+            "level":"32%"
+          },
+          {
+            "name":"Estabilidade-22%",
+            "level":"22%"
+          },
+          {
+            "name":"Conformidade-5%",
+            "level":"5%"
+          }
+        ],
+        "personalidade":[
+          {
+            "name":"Extrovertido-63%",
+            "level":"63%"
+          },
+          {
+            "name":"Intuitivo-73%",
+            "level":"73%"
+          },
+          {
+            "name":"Pensante-44%",
+            "level":"51%"
+          },
+          {
+            "name":"Julgador-11%",
+            "level":"11%"
+          },
+          {
+            "name":"Assertivo-56%",
+            "level":"56%"
+          }
+        ]
+      },
       "deborah":"deborah.png",
       "layane":"layane.png",
-      "salomao":"salomao.png",
-      "carlos":"carlos.png"
+      "salomao":"salomao.png"
     },
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
