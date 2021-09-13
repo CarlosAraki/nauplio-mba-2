@@ -17,12 +17,16 @@ class Objetivo extends Component {
               <h1>Objetivo</h1>
 
               <div
-                id="portfolio-wrapper"
+                id="objetivo-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
                 <div style={{ textAlign: "center" }} className="item-wrap">
-                  <Zmage alt={focus.title} src={"images/" + focus.picture} />
+                    <img
+                    src={"images/" + focus.picture}
+                    alt="Obj Pic"
+                  />
                 </div>
+
                 <p>{'\u2022'+" "+focus.foc1}</p>
                 <p>{'\u2022'+" "+focus.foc2}</p>
                 <p>{'\u2022'+" "+focus.foc3}</p>
