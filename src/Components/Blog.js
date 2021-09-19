@@ -3,29 +3,32 @@ import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
 let id = 0;
-class Portfolio extends Component {
+class Blog extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const qualhab = this.props.data.qualhab;
+    const focus = this.props.data.focus;
 
     return (
-      <section id="portfolio">
+      <section id="blog">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Qualidades e Habilidades</h1>
+              <h1>Objetivo</h1>
 
               <div
-                id="portfolio-wrapper"
+                id="objetivo-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
-                <p>{'\u2022'+" "+qualhab.qual1}</p>
-                <p>{'\u2022'+" "+qualhab.qual2}</p>
-                <p>{'\u2022'+" "+qualhab.qual3}</p>
-                 <div style={{ textAlign: "center" }} className="item-wrap">
-                  <Zmage alt={qualhab.title} src={"images/" + qualhab.picture} />
+                <div style={{ textAlign: "center" }} className="item-wrap">
+                    <img
+                    src="https://cdn-icons-png.flaticon.com/256/1694/1694364.png"
+                    alt="Obj Pic"
+                  />
                 </div>
+                <p >{focus.foc1}</p>
+                <p >{focus.foc2}</p>
+                <p >{focus.foc3}</p>
               </div>
             </div>
           </div>
@@ -35,4 +38,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Blog;

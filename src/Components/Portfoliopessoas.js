@@ -3,33 +3,42 @@ import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
 let id = 0;
-class Portfolio extends Component {
+
+class Portfoliopessoas extends Component {
+  
   render() {
     if (!this.props.data) return null;
-
-    const projects = this.props.data.projects.map(function (projects) {
+    const projects = this.props.data['projects'].map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
         <div key={id++} className="columns portfolio-item">
+          
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            {/* <Zmage alt={} src= /> */}
+            <a className="smoothscroll" href="team">
+              <img
+                  className="profile-pic2"
+                  src={projectImage}
+                  alt={projects.title}
+                />
+              <div style={{ textAlign: "center" }}>{projects.title}</div>
+            </a>
           </div>
         </div>
       );
     });
 
     return (
-      <section id="portfolio">
+      <section id="portfoliopessoas">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Equipe</h1>
 
               <div
                 id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
+                className="bgrid-thirds s-bgrid-thirds cf"
               >
                 {projects}
               </div>
@@ -41,4 +50,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Portfoliopessoas;
