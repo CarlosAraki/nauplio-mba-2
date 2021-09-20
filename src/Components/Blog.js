@@ -47,15 +47,26 @@ class Blog extends Component {
   render() {
 
     return (
-      <div id="resume">
-            <div className="three columns">
+      <section id="resume">
 
-        <div className="nine columns main-col">
-          <Terms/>
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="profile-pic"
+            src={"images/nauplio.png"}
+            alt="Logo Pic"
+          />
         </div>
-        </div>
-       
+
+
+          <div className="nine columns main-col">
+            <Terms/>
+          </div>
+        
       </div>
+
+      </section >
+      
     );
   }
 }
