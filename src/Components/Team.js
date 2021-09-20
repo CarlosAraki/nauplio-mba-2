@@ -1,62 +1,106 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
+import About from "./About";
+import Header from "./Header";
+import ParticlesBg from "particles-bg";
+import { useHistory } from "react-router-dom";
+import { Redirect } from 'react-router'
 
-class About extends Component {
+import Aboutlais from "./Aboutlais";
+import Aboutcarlos from "./Aboutcarlos";
+import Aboutsalomao from "./Aboutsalomao";
+import Aboutdeborah from "./Aboutdeborah";
+import Aboutlayane from "./Aboutlayane";
+
+import $ from "jquery";
+import ReactGA from "react-ga";
+
+
+
+class Team extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      foo: "bar",
+      resumeData: {}
+    };
+  }
+  getResumeData() {
+    $.ajax({
+      url: "./resumeData.json",
+      dataType: "json",
+      cache: false,
+      success: function(data) {
+        this.setState({ resumeData: data });
+      }.bind(this),
+      error: function(xhr, status, err) {
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+  componentDidMount() {
+    this.getResumeData();
+  }
   render() {
-    if (!this.props.data) return null;
-
-    const name = this.props.data.name;
-    const profilepic1 = "images/" + this.props.data.image;
-    const profilepics = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const barbara = this.props.data.team.barbara;
 
     return (
-      <section id="team">
-        <Fade duration={1000}>
-          <div className="row">
-            <div >
-              <img
-                className="profile-pic"
-                src={"images/" + barbara.profile}
-                alt="Nordic Giant Profile Pic"
-              />
-              <br />
-              <p>{barbara.littleDesc}</p>
-              <br />
-              <a href={project} className="button btn project-btn">
-                <i className="fa fa-book"></i>Project
+      <div>
+     
+        <nav id="nav-wrap">
+          
+
+          <ul id="nav2" className="nav">
+            <li >
+              
+              <a className="smoothscroll" href='/#home' >
+                Voltar
               </a>
-            </div>
-          </div>
-          <div className="row">
-            <div >
-              <img
-                className="profile-pic"
-                src={"images/" + barbara.profile}
-                alt="Nordic Giant Profile Pic"
-              />
-              <br />
-              <p>{barbara.littleDesc}</p>
-              <br />
-              <a href={project} className="button btn project-btn">
-                <i className="fa fa-book"></i>Project
+            </li>
+
+            {/* <li >
+              <a className="smoothscroll" href="/team#about">
+                Barbara
               </a>
-            </div>
-          </div>
-        </Fade>
-      </section>
+            </li>
+            <li >
+              <a className="smoothscroll" href="/team#aboutlais">
+                Lais
+              </a>
+            </li>
+            <li >
+              <a className="smoothscroll" href="/team#aboutcarlos">
+                Carlos
+              </a>
+            </li>
+            <li >
+              <a className="smoothscroll" href="/team#aboutsalomao">
+                Salomao
+              </a>
+            </li>
+            <li >
+              <a className="smoothscroll" href="/team#aboutdeborah">
+                Deborah
+              </a>
+            </li>
+            <li >
+              <a className="smoothscroll" href="/team#aboutlayane">
+                Layane
+              </a>
+            </li> */}
+
+           
+          </ul>
+        </nav>
+        <About data={this.state.resumeData.main} />
+        <Aboutlais data={this.state.resumeData.main} />
+        <Aboutcarlos data={this.state.resumeData.main} />
+        <Aboutsalomao data={this.state.resumeData.main} />
+        <Aboutdeborah data={this.state.resumeData.main} />
+        <Aboutlayane data={this.state.resumeData.main} />
+      </div>
     );
   }
 }
 
-export default About;
+export default Team;

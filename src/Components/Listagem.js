@@ -1,21 +1,22 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
+import Header from "./Header";
+import Footer from "./Footer";
+import About from "./About";
+import Aboutlais from "./Aboutlais";
+import Aboutcarlos from "./Aboutcarlos";
+import Aboutsalomao from "./Aboutsalomao";
+import Aboutdeborah from "./Aboutdeborah";
+import Aboutlayane from "./Aboutlayane";
+import Team from "./Team";
+import Contact from "./Contact";
+import Portfolio from "./Portfolio";
+import Objetivo from "./Objetivo";
 import $ from "jquery";
-import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Aboutlais from "./Components/Aboutlais";
-import Aboutcarlos from "./Components/Aboutcarlos";
-import Aboutsalomao from "./Components/Aboutsalomao";
-import Aboutdeborah from "./Components/Aboutdeborah";
-import Aboutlayane from "./Components/Aboutlayane";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
-import Objetivo from "./Components/Objetivo";
-import Routes from "./routes";
+import ReactGA from "react-ga";
 
-class App extends Component {
+
+
+class Listagem extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +27,6 @@ class App extends Component {
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
   }
-
   getResumeData() {
     $.ajax({
       url: "./resumeData.json",
@@ -45,11 +45,11 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
-
   render() {
+  
     return (
-      <div className="App">
-        {/* <Header data={this.state.resumeData.main} />
+      <div>
+        <Header data={this.state.resumeData.main} />
         <Objetivo data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Aboutlais data={this.state.resumeData.main} />
@@ -57,16 +57,11 @@ class App extends Component {
         <Aboutsalomao data={this.state.resumeData.main} />
         <Aboutdeborah data={this.state.resumeData.main} />
         <Aboutlayane data={this.state.resumeData.main} />
-        <Team data={this.state.resumeData.main} /> 
-         <Resume data={this.state.resumeData.resume} /> 
         <Portfolio data={this.state.resumeData.main} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} /> */}
-
-        <Routes/>
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
 }
 
-export default App;
+export default Listagem;
