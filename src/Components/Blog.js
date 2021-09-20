@@ -47,8 +47,13 @@ class Blog extends Component {
   render() {
 
     return (
-      <div id="objetivo">
-        <Terms/>
+      <div id="resume">
+            <div className="three columns">
+
+        <div className="nine columns main-col">
+          <Terms/>
+        </div>
+        </div>
        
       </div>
     );
